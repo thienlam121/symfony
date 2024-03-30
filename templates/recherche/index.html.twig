@@ -1,0 +1,8 @@
+{% for uneInscription in inscriptions %}
+    <br><b>id : {{uneInscription.id}}</b><br>
+    nom : {{uneInscription.employe.nom}}<br>
+    prenom  : {{uneInscription.employe.prenom}}<br>
+    statut : {{uneInscription.statut}}<br/>
+    --------------------------------------------
+    
+{% endfor %}
